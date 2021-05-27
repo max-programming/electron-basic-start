@@ -4,10 +4,12 @@
   "description": "A basic and simple Electron Starter",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
   },
   "author": "Max Programming",
   "devDependencies": {
-    "electron": "^10.1.3"
+    "electron": "^10.1.3",
+    "nodemon": "^2.0.7"
   }
 }
